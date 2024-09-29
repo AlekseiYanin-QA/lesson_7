@@ -29,7 +29,7 @@ public class Main {
     public static void testModCar(Car car) {
         System.out.println("--------------");
         describeCar(car);
-        driveCar((Driveable) car);
+        driveCar(car);
         System.out.println("--------------");
     }
 
